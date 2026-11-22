@@ -1,6 +1,6 @@
 # How Climate Change Conversations on Twitter Evolved (2006–2019)
 
-CS334 Course Project · Group 23: Maryam, Izzah, Noor
+CS334 Course Project · Group 23: Maryam, Izzah, Noor, Izza
 
 Data cleaning, exploratory analysis, statistical tests and a stance classifier on 15.8 million climate-related tweets (2006–2019). We look at how the volume, topics, tone, stance and geography of the climate conversation changed over time, and whether unusually hot or cold months show up in what people tweet.
 
