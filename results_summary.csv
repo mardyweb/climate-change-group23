@@ -1,0 +1,8 @@
+test,question,method,key_result
+Test 1,"Did tweets calm down, or did the stance/topic mix change?","Logistic regression, raw vs adjusted for stance and topic","2019 vs 2015 OR: raw 0.65, adjusted 0.63 (95% CI 0.62-0.64)"
+Test 1b,Does sentiment differ by topic?,Kruskal-Wallis test + effect size,"H = 249,248, epsilon squared = 0.063"
+Test 2,Are deniers more aggressive within the same topic?,"Logistic regression with topic, year, gender","denier vs believer OR = 1.82 (95% CI 1.80-1.83); political 1.23, non-political 2.01"
+Test 3,Is the gender gap in denial the same in every region?,Logistic regression per region,male vs female OR from 1.17 (Africa & Middle East) to 1.96 (Europe)
+Test 3b,Do the same topics attract denial and aggression everywhere?,Spearman rank correlation with p-values,"rho 0.84-1.00 (denial), 0.64-0.99 (aggression)"
+Test 4,Does the cold-month effect survive controls for year and region?,Logistic regression with cluster-robust errors,"coldest bin OR: raw 1.97, adjusted 1.79 (95% CI 1.51-2.12)"
+Model,Can stance be predicted from a tweet's other labels?,Baseline vs logistic regression vs random forest,"macro-F1: baseline 0.28, logistic 0.45, forest 0.50; denier recall 0.63"
