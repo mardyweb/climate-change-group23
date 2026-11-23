@@ -1,4 +1,4 @@
-# How Climate Change Conversations on Twitter Evolved (2006–2019)
+# The Climate Change Conversation on Twitter, Quantified (2006–2019)
 
 CS334 Course Project · Group 23: Maryam, Izzah, Noor, Izza
 
